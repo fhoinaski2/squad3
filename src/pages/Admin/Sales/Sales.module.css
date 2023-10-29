@@ -1,0 +1,30 @@
+.cardSales {
+    display: flex;
+    margin-top: 50px;
+    gap:40px
+}
+
+.titulo {
+    margin-top: -250px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+
+.cardSalesBloco {
+font-size: 1.0rem;
+  border: solid 3px;
+  border-color: var(--color-border);
+  border-radius: 5px;
+  width: 300px;
+  padding: 40px;
+}
+
+.cardSalesBloco img {
+    width:  90px;
+    margin-top: 10px;
+}
+
+.cardSalesBloco p {
+    margin-top: 10px;
+}
