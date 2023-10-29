@@ -16,7 +16,7 @@ const SucessoModal = ({ mensagem, onClose }) => {
 };
 
 
-// tetse
+// sucesso modalimport
 
 
 SucessoModal.propTypes = {
