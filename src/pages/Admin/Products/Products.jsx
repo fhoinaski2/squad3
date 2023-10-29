@@ -1,8 +1,9 @@
 import { useState } from "react";
 import useApi from "../../../hooks/useApi";
 import styles from "./Products.module.css"
-import SucessoModal from "../../../components/Modal/SucessoModal/SucessoModal";
+
 import ErroModal from "../../../components/Modal/ErroModal/ErroModal";
+import SucessoModal from "../../../components/Modal/SucessoModal/SucessoModal";
 
 
 function NewProduct() {
