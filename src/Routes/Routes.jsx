@@ -8,7 +8,7 @@ import typeUserEnum from '../constants/enums/typeUserEnum';
 import Unauthorized from '../pages/Unauthorized/Unauthorized';
 import Login from "../pages/Auth/Login/Login";
 import Dashbord from '../pages/Admin/Dashboard/Dashboard';
-import RegisterUser from "../pages/Auth/Register/registerUser"
+import RegisterUser from "../pages/Auth/Register/RegisterUser"
 import DashBoardIndex from '../pages/Admin/DashBoardIndex/DashBoardIndex';
 import Sales from '../pages/Admin/Sales/Sales';
 import AllUsers from '../pages/Admin/AllUsers/AllUsers';
