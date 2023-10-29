@@ -31,7 +31,7 @@ export default function AllRoutes() {
         <Route path="/user/register" element={<RegisterUser />} />
         <Route path="/user/profile"
           element={
-            <PrivateRoute accessControl>
+            <PrivateRoute accessControl={[typeUserEnum.BUYER, typeUserEnum.ADMIN]}>
               <Profile />
             </PrivateRoute>
           }/>
