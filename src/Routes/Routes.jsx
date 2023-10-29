@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NotFound from '../pages/NotFound/NotFound';
-import Index from '../pages/Home/Index';
+import Index from '../pages/Home/Index/Index';
 import AdminLogin from '../pages/Admin/AdminLogin/AdminLogin';
 import PrivateRoute from '../components/PrivateRoute';
 import CadastrarProduto from '../pages/Admin/Products/Products';
