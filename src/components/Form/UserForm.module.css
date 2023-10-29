@@ -1,0 +1,232 @@
+@import "../../styles/variable.css";
+
+/*@media screen and (max-width: 768px) {*/
+.container {
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+}
+.flex_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+/*}*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.user_container {
+  flex: 0.5;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.address_container {
+  flex: 0.5;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.inputBigger {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input_smaller {
+  flex-direction: column;
+  flex: 0.5;
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.input_box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input_box input {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+.input_box select {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.input_box input:focus,
+.input_box select:focus {
+  outline: none;
+  border: 1px solid var(--border-color-focus);
+}
+
+.input_box label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.input_password {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input {
+  padding-right: 32px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 8c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z'/%3E%3C/svg%3E");
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+.select {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
+
+.button_signup {
+  display: flex;
+  justify-content: left;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.button_signup button {
+  width: 40%;
+  margin-top: 0px;
+  padding: 0.62rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button_signup button:hover {
+  background-color: var(--border-color-hover);
+}
+
+.button_password {
+  padding: 5px;
+  border: none;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_cep {
+  padding: 5px;
+  border: none;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_password:hover {
+  background-color: var(--border-color-hover);
+}
+
+.error_message {
+  text-align: center;
+  color: var(--danger);
+  margin-top: 3px;
+}
+
+.error_message2 {
+  color: var(--white);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0px 200px 10px 200px;
+  background-color: var(--danger);
+}
+
+.input_double {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.input_box2 {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.input_box2 label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.input_box2 input {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.input_box2 input:focus {
+  outline: none;
+  border: 1px solid var(--border-color-focus);
+}

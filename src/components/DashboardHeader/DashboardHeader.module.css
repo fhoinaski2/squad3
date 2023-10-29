@@ -1,0 +1,27 @@
+@import '../../styles/variable.css';
+
+.containeHeader{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+
+}
+
+
+.containerImagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.containerImagem img{
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.containerText{
+    align-items: center;
+    margin-left: 20px;
+}

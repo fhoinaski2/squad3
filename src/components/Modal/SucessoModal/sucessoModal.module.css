@@ -1,0 +1,49 @@
+@import '../../../styles/variable.css';
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.modalContent {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    z-index: 10000;
+}
+
+.modalContent h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--info);
+}
+
+.modalContent p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.modalContent button {
+    background-color: var(--primary);
+    color: white;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modalContent button:hover {
+    background-color: var(--border-color-active);
+}

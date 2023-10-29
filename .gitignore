@@ -1,0 +1,3 @@
+# Arquivos/diretórios específicos
+node_modules/
+.env

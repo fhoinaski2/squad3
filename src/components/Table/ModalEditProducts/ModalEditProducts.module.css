@@ -1,0 +1,196 @@
+@import '../../../styles/variable.css';
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.modalContent {
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    width: 300px;
+    height: auto;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.formGroup label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.formGroup input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.formGroup select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.formGroup select option{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modalButtons button:disabled {
+    background-color: var(--light);
+    cursor:default;
+
+}
+
+.buttonCancel{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttonCancel:hover{
+    background-color: var(--border-color);
+}
+
+.buttonSave{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttonSave:hover{
+    background-color: var(--border-color);
+}
+
+.inputImagem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.modalImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.inputImagem img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    border: 1px solid var(--border-color);
+}
+.inputImagem input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputUnitPrice{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.inputUnitPrice input{
+    width: 100%;
+    padding-left: 28px;
+    font-size: 14px;
+}
+.inputUnitPrice p{
+    position: absolute;
+    background-color: transparent;
+    margin-left: 4px;
+    font-size: 14px;
+}
+
+.modalContent input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+.inputDosage{
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+
+}
+
+.inputDosage input{
+    width: 100%;
+    font-size: 14px;
+}
+
+.inputDosage p{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    
+
+    
+}
+.error{
+    background-color: var(--bg-danger);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0 4px 0;
+    color: var(--danger);
+}

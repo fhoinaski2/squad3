@@ -1,0 +1,6 @@
+@import '../../../styles/variable.css';
+
+.text {
+  color: var(--color-text-Primary);
+  color:#333333
+}

@@ -1,0 +1,144 @@
+@import '../../../styles/variable.css';
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 800px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 25%;
+
+}
+
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    width: 600px;
+    text-align: left;
+}
+
+.container form input{
+    width:80%;
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid var( --color-border);
+    border-radius: 5px;
+    outline: none;
+}
+
+.container form input:focus{
+    border: 1px solid #000;
+}
+
+.container form label{
+  text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+}
+
+.buttonAdiconar{
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 110px;
+    background-color: var(--light);
+    color: var(--primary);
+    border: solid 1px var(--color-border);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.buttonAdiconar:hover{
+    background-color: var(--color-hover);
+    color: var(--light);
+}
+
+.buttonAdiconar:disabled{
+    background-color: var(--color-disabled);
+    color: var(--color-text);
+    cursor: not-allowed;
+}
+.groupInput{
+    display: flex;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+    color: var(--primary);
+    font-size: 1.8rem;
+
+}
+
+.groupInput div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.groupInput div:first-child{
+    margin-right: 20px;
+}
+
+.conatiner sup {
+    color: red; /* Cor vermelha */
+}
+.cardForm1 {
+    margin-top: 50px;
+   
+}
+
+.cardForm1 h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--primary);
+    font-size: 1.8rem;
+    
+}
+.cardForm {
+    font-size: 14px;
+    border: solid 3px;
+    border-color:#01b8c2;
+}
+
+.cardForm input[type="text"],
+
+.cardForm label {
+    margin-right: 10px;
+}
+
+
+input[type="radio"] {
+    transform: scale(0.5); 
+    margin-right: 5px;
+    margin-left: -150px;
+}
+
+input[type="radio"]:checked {
+    transform: scale(0.5);
+     
+}
+
+.labelForm {
+    margin-left: -200px;
+}

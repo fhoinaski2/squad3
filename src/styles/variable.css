@@ -1,0 +1,24 @@
+:root {
+  --primary: #00b8c1;
+  --secondary: #6c757d;
+  --hover: #01b8c2;
+  --success: #28a745;
+  --danger: #dc3545;
+  --bg-danger: #ce818959;
+  --warning: #ffc107;
+  --info: #17a2b8;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --white: #fff;
+  --black: #000;
+  --color-text-Primary: #5555;
+  --color-hover: #01b8c279;
+  --border-color: #01b8c2;
+  --border-color-hover: #01b8c2;
+  --border-color-focus: #01b8c2;
+  --border-color-active: #01b8c2;
+  --color-border: #01b8c2;
+  --bg-color-hover-btn: #edf4ff;
+  --bg-color-table: #01b8c217;
+  --text-price:#f57c03c0;
+}

@@ -1,0 +1,99 @@
+@import '../../styles/variable.css';
+
+.tableContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.tableContainer table{
+    width: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid var(--secondary);
+}
+
+.tableContainer table th,
+.tableContainer table td{
+    text-align: left;
+    padding: 16px;
+    font-size: 0.8rem;
+}
+
+.tableContainer table th{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.tableContainer table td{
+    border: 1px solid var(--secondary);
+}
+
+.actionButton{
+    background-color: var(--primary);
+    color: var(--light);
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.actionButton:hover{
+    background-color: var(--color-hover);
+}
+
+.evenRow td{
+  background-color: var( --bg-color-table); 
+}
+
+.oddRow td{
+  background-color: var(--light); 
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.buttonPagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.buttonPagination button{
+    background-color: var(--primary);
+    color: var(--light);
+    border: none;
+    padding: 4px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonPagination button:hover{
+    background-color: var(--color-hover);
+}
+.buttonPagination button svg{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}

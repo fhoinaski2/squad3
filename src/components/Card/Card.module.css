@@ -1,0 +1,91 @@
+@import '../../styles/variable.css';
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 10px #00000033;
+    border-radius: 5px;
+}
+
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 230px;
+    border-bottom: solid 1px var(--primary)
+}
+.cardImg{
+    width: 90%;
+    height: 120px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImg img {
+    width: 90px;
+    margin-top: 10px;
+}
+.cardTop h2{
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin: 10px;
+}
+
+.cardTop h3{
+    font-size: 0.8rem;
+    margin: 5px;
+}
+.cardTop p{
+    font-size: 0.7rem;
+   
+}
+.cardBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+}
+.cardBottom h2{
+    font-size: 1.5rem;
+    color: var(--text-price);
+}
+
+.cardAddCar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 5px;
+}
+.cardAddCar button{
+    flex:1;
+    border-radius: 4px;
+    font-size: 10px;
+    border: 1px solid var(--primary);
+    padding: 3px 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cardAddCar button:hover{
+    background-color: var(--primary);
+    color: var(--white);   
+}
+
+.cardAddCar input{
+    flex: 0.3;
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    padding: 3px 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
