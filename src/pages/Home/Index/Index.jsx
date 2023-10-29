@@ -1,5 +1,5 @@
 
-import Navbar from "../../../components/Navbar/navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import ProductsPageIndex from "../../../components/ProducstPageIndex/ProductsPageIndex";
 import styles from "./Index.module.css"
 
