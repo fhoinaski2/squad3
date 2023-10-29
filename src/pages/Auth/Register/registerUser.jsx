@@ -106,7 +106,7 @@ const RegisterUser = () => {
 
 
         const registerUser = await signupUser(newUser);
-        console.log(registerUser.data);
+        
 
         switch (registerUser.status) {
             case 201:
