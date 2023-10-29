@@ -28,6 +28,7 @@ const Navbar = () => {
     async function handleLogout() {
         await logout();
         window.location.reload();
+        // 
     }
 
     const handleSearch = () => {
