@@ -1,7 +1,7 @@
 
 import Navbar from "../../../components/Navbar/navbar"
 import ProductsPageIndex from "../../../components/ProducstPageIndex/ProductsPageIndex";
-import styles from "./index.module.css"
+import styles from "./Index.module.css"
 
 export default function Index() {
   return (
