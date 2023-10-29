@@ -36,7 +36,7 @@ export default function AllRoutes() {
             </PrivateRoute>
           }/>
 
-          <Route path="sales/buyers/addreess" element={<Cart />}/>
+          <Route path="/cart" element={<Cart />}/>
 
         <Route path='/admin/dashboard'
           element={
