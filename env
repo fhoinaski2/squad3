@@ -1,0 +1,3 @@
+# VITE_URL_HOST_API=http://localhost:3002/api
+VITE_URL_HOST_API=https://monitorrindodeploymaster.cyclic.app/api
+VITE_SECRET_KEY = "0imP7sxjfXH3WPhTflve0imP7sxjfXH3WPhTflve"
