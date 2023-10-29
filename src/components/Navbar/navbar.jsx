@@ -28,7 +28,7 @@ const Navbar = () => {
     async function handleLogout() {
         await logout();
         window.location.reload();
-        // 
+        // history.push('/');
     }
 
     const handleSearch = () => {
