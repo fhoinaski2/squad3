@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import useApi from "../../../hooks/useApi";
 import useAuth from "../../../hooks/useAuth";
-import Navbar from "../../../components/Navbar/navbar";
+import Navbar from "../../../components/Navbar/Navbar";
 import InputMask from "react-input-mask";
 import styles from "./Cart.module.css"
 
